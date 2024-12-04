@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\gamepatchericon.ico</ApplicationIcon>
+    <RootNamespace>GamePatcher</RootNamespace>
+    <AssemblyName>GamePatcher</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\gamepatcherbg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\gamepatchericon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\gamepatcherbg.png" />
+  </ItemGroup>
+
+</Project>
